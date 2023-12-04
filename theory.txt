@@ -1,0 +1,79 @@
+Javascript basic advanced 1:
+------------------------------
+-> It is a programming language that allows us to implement complex 
+feature on the pages.
+HTML->it is markup language that we use to structure and give meaning to our web
+content.
+CSS->It is a language of style rules that we used to apply styling to our HTML Content.
+
+Javascript : It is scripting language that enables you to create dynamically updating content.
+
+Syntax Parser :
+----------------
+A program that reads your code and determines what it does and if it's grammer is valid.
+
+Lexical Environment :
+------------------------
+Where something sits physically  in the code you write.
+
+function(){
+    santanu
+    paikaray
+
+}
+
+Execution Context :
+------------------------
+A wrapper to help manage the code that is running 
+
+Lexical 1
+Lexical 2
+Lexical 3
+
+Name/Value pairs:
+-------------------
+A name which maps to a unique value(name:'santanu')
+
+Object:
+--------
+A collection of these name value pairs.
+
+Global Environmentand Global Object:
+-----------------------------------------
+Whenever code is running in Javascript it runs inside an execution Context.
+
+Execution Context(Global)
+--------------------------
+Global Object
+this
+
+Global:
+Anything outside the function is called global.
+var a =12;(global)
+function add(){
+
+    var a = 1;(local)
+
+}
+add()
+
+Hoisting:
+----------------
+When you declare variable and function in Javascript, the execution engine 
+sets up a memory space for variables and functions.
+
+-> If it is a variable it will keep that variable in momery and assign a default value called
+undefined.
+
+-> It is a function it will copy entire function and keeps in memory.
+
+//== check the value(a=10)
+//=== check the value and it's type
+
+var a="10";
+console.log(a==10)
+console.log(a===10)
+
+
+
+
