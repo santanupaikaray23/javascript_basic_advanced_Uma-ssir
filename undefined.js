@@ -1,8 +1,17 @@
-var a= "20";
+// var a = "34";
+// console.log(a)
+
+// if(a === undefined){
+//     console.log('a is undefined');
+// }else{
+//     console.log('a is defined');
+// }
+
+function b(){
+    console.log('b is called')
+}
+b();
 console.log(a)
 
-if(a === undefined){
-    console.log('a is undefined')
-}else{
-    console.log('a is defined')
-}
+var a ="Hello World"
+console.log(a)

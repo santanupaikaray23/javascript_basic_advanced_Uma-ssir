@@ -74,6 +74,68 @@ var a="10";
 console.log(a==10)
 console.log(a===10)
 
+undefined
+--------------
+Special value in Javascript which takes up memory space
+
+Warning :  Never ever declare a variable undefined, because it is difficult 
+to find value is 'undefined' because we set it or Javascript execution engineset it up.
+
+Javascript follow Dynamic Typing:
+-----------------------------------
+You don't tell the engine what type of data a variable holds,
+it figures out while your code running.
+
+Strict Typing:
+--------------
+C# or java follows script Typing.
+
+Premitive Types:
+----------------------
+Types of data that represent a single value is called Premitive data type.
+
+1. undefined - this represent lack of existance (we should never use this)
+2. null - this represent lack of existance (we can set a variable to this)
+3. Boolean - true or false
+4. number -  integer/floating type(decimal)
+5. string -  a sequence of characters
+6. Symbol - used in ES6
+
+Anything which is not premitive is an Object in Javascript
+
+Object
+function
+array
+Date
+RegularExpression
+
+Functions:
+-----------------
+
+It is a block of code wrapped around flower brackets and invocated later.
+
+function functionname(){
+
+}
+
+1. Regular Functions
+2. Anonymous Functions
+3. Immediately Invoked Functions(IIFS)
+
+-> Function without any Name is called Anonymous function.
+
+First Class Functions
+-----------------------
+- Can be Invoked
+- Assign to a variable
+- passed as a parameter to another variable
+
+
+
+
+
+
+
 
 
 
