@@ -130,11 +130,63 @@ First Class Functions
 - Assign to a variable
 - passed as a parameter to another variable
 
+Advantages OF IIFS
+----------------------
+1. Will not create uncessary global variable and Functions
+2. Function and Variable defined don't conflict.
+
+Objects:
+-------------
+An Object is a collection of name value pairs.
+
+1. Using New Object()
+2. Using Object Literal{}
+3. Using Object.create()
+4. Construtor function
+
+Object.create() method creates new object using an existing  object or null
+as the prototype for created object.
 
 
 
+var person = Object.create(null)// create an empty/null object
+var person =  Object.create({})// create a normal function
+
+JSON 
+-------------
+Javascript Object Notation
+
+Inspired by the object literal Notation{}
+
+XML
+---------
+<data>
+<firstname>santanu</firstname>
+<lastname>paikaray</lastname>
+</data>
+
+JSON
+----------
+
+{
+    "firstname":"santanu",
+    "lastname":"paikaray"
+}
+-Json makes our data light weight
 
 
+
+Object:
+----------
+{
+    firstname : "santanu",
+    secondname : "paikaray"
+}
+
+properties have to be wrapped in quotes for JSON
+Anything which is json valid in valid in object literal 
+
+JSON.stringify - convert a Javascript value into seriazlied string
 
 
 
