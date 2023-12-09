@@ -174,7 +174,8 @@ JSON
 }
 -Json makes our data light weight
 
-
+JSON.stringify -  It converts a Javascript value into seriazlied string
+When sending data to a webserver that data has to be string
 
 Object:
 ----------
@@ -187,6 +188,21 @@ properties have to be wrapped in quotes for JSON
 Anything which is json valid in valid in object literal 
 
 JSON.stringify - convert a Javascript value into seriazlied string
+Json. Parser -  deserialzes a JSON string to a JSON object
+
+Array:
+---------
+An Array is an object that can store a collection of items.
+
+it Is useful when want to store a large amount of data.
+
+var students = ["santanu","Sipun","Sandeep"]
+
+var people = new Array("Santanu","Sipun","Sandeep")
+
+In Javascript arrays are object Types with Special Construtor.
+
+Array Index start from zero
 
 
 
