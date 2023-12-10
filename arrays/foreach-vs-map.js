@@ -7,3 +7,5 @@ console.log(output1)
 os.map(function(item){
     console.log(item)
 })
+//Map return value
+//forEach don't return anything

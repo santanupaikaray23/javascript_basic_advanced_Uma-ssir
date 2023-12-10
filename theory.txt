@@ -190,6 +190,11 @@ Anything which is json valid in valid in object literal
 JSON.stringify - convert a Javascript value into seriazlied string
 Json. Parser -  deserialzes a JSON string to a JSON object
 
+Closure:
+---------
+Inner functions having access to the variable of outer functions.
+
+
 Array:
 ---------
 An Array is an object that can store a collection of items.
@@ -203,6 +208,29 @@ var people = new Array("Santanu","Sipun","Sandeep")
 In Javascript arrays are object Types with Special Construtor.
 
 Array Index start from zero
+
+Closure:
+---------
+Inner function having access to the variable of outer function.
+
+Bind vs call vs apply
+------------------------
+Bind  :
+---------
+it creates a copy of that function and sets this keyword.
+
+Call :
+---------
+Sets 'this' keyword and execute the function immediately and doesn't create a new copy of 
+the function.
+
+
+
+apply :
+-----------
+sets 'this' keyword, similar to call but difference is apply accepts an array of
+arguments instead comma seperated values.
+
 
 
 
