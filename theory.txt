@@ -224,6 +224,11 @@ Call :
 Sets 'this' keyword and execute the function immediately and doesn't create a new copy of 
 the function.
 
+The call, bind and apply methods can be used to set 'this' keyword
+independent of how function is called
+
+
+
 
 
 apply :
