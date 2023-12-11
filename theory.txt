@@ -1,3 +1,5 @@
+complected video :11
+------------------------
 Javascript basic advanced 1:
 ------------------------------
 -> It is a programming language that allows us to implement complex 
@@ -235,6 +237,16 @@ apply :
 -----------
 sets 'this' keyword, similar to call but difference is apply accepts an array of
 arguments instead comma seperated values.
+
+
+Inheritance:
+------------
+One object get access to the properties and methods of another object.
+
+In Javascript inheritance is supported by using prototype object.
+this is also called prototypal inheritance.
+
+
 
 
 

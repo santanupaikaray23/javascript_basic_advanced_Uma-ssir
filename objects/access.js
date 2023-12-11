@@ -51,9 +51,14 @@ var freezeObject = {
     age: 40
 }
 
+// Object.freeze()
+// --------------------
+// We can't add, edit and delete the properties
+
 Object.freeze(freezeObject);
 freezeObject.email="santanu@gamil.com"
 freezeObject.name="Check"
 delete freezeObject.age;
 
 console.log(freezeObject);
+
