@@ -8,3 +8,4 @@ function greet(message){
 var sayHello = greet("Hello");
 console.log(greet("Hello"))
 sayHello('Happy')
+// Inner Function having access to the outer function varaible is called closer.
